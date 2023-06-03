@@ -20,7 +20,7 @@ class MyPageView extends StatefulWidget {
 
 class _MyPageViewState extends State<MyPageView> {
   final PageController _pageController = PageController(initialPage: 0);
-  //int _currentPageIndex = 0;
+  int _currentPageIndex = 0;
 
   @override
   void dispose() {
